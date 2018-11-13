@@ -24,7 +24,7 @@ Installation and Usage
 4. Run the script with your (comma-separated) domain(s) and email address:
 
     ```sh
-    sh certbot-route53.sh \
+    ./certbot-route53.sh \
       --agree-tos \
       --manual-public-ip-logging-ok \
       --domains jed.is,www.jed.is \
